@@ -65,7 +65,7 @@ extension SKTexture {
     
     static func getTextureFor(textureType texture: TexturType) -> SKTexture {
         let image: UIImage
-        var color = UIColor.white
+        let color = UIColor.white
         switch texture {
         case .player:
             image = UIImage(systemName: "face.smiling")!
